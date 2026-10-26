@@ -1,9 +1,10 @@
 /* Alleen van toepassing op de slides met class slide. */
 body:has(.slide) { background: #ded7ca !important; color: #383838 !important; max-width: 1280px; margin: 0 auto; padding: 24px; }
 .slide { box-sizing: border-box; position: relative; container-type: inline-size; width: 100%; min-height: 56.25vw; min-height: min(56.25vw, 720px); background: #f5efdf; color: #383838; font-family: Arial, Helvetica, sans-serif; padding: 85px 64px 85px; margin: 0 0 28px; overflow-wrap: break-word; border: 1px solid #d6cdbb; }
-.slide h1, .slide h2 { color: #383838 !important; border: 0; padding: 0; line-height: 1.2; }
-.slide h1 { font-size: 54px; }
-.slide h2 { font-size: 36px; margin: 0 140px 32px 0; }
+.slide h1, .slide h2, .reveal .slides .slide h1, .reveal .slides .slide h2 { color: #383838 !important; border: 0; padding: 0; line-height: 1.2; text-transform: none !important; }
+.slide h1, .reveal .slides .slide h1 { font-size: 27px !important; }
+.slide h2, .reveal .slides .slide h2 { font-size: 18px !important; margin: 0 140px 32px 0; }
+.slide h3, .slide h4, .slide h5, .slide h6, .reveal .slides .slide h3, .reveal .slides .slide h4, .reveal .slides .slide h5, .reveal .slides .slide h6 { text-transform: none !important; }
 .slide p, .slide li { font-size: 26px; line-height: 1.45; }
 .slide .logo { position: absolute; top: 24px; right: 30px; width: 112px; height: 60px; object-fit: contain; background: transparent; }
 .slide .footer { position: absolute; bottom: 24px; left: 64px; right: 64px; font-size: 16px; color: #555; border-top: 1px solid #c9beaa; padding-top: 10px; }
